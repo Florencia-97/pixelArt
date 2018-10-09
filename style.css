@@ -1,0 +1,16 @@
+body {
+  border: 10px black;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ .dibujo {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
