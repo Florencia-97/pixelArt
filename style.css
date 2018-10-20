@@ -14,3 +14,7 @@ body {
     height: auto;
     width: auto\9; /* ie8 */
 }
+
+.pixelart:hover{
+  cursor: pointer;
+}
