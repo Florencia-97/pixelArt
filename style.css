@@ -18,3 +18,24 @@ body {
 .pixelart:hover{
   cursor: pointer;
 }
+
+.pixelart{
+  position: relative;
+}
+
+.pixelart .firma{
+  max-width: 50%;
+  position:absolute;
+  z-index: 3;
+}
+
+.pixelart .bottom-right{
+  bottom: 5px; 
+  right: 5px;
+}
+
+.pixelart .firma-negra {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
