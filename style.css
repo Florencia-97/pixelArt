@@ -29,9 +29,20 @@ body {
   z-index: 3;
 }
 
+.pixelart .firma-big{
+  max-width: 25%;
+  position:absolute;
+  z-index: 3;
+}
+
 .pixelart .bottom-right{
   bottom: 5px; 
   right: 5px;
+}
+
+.pixelart .bottom-right-big{
+  bottom: 0px; 
+  right: 0px;
 }
 
 .pixelart .firma-negra {
